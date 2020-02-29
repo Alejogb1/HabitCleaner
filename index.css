@@ -179,14 +179,14 @@ to be contained to a fixed width for legibility"****/
 #times {
     color: white ;
     background-color: black;
-    font-size: 2rem;
+    font-size: 1.2rem;
     font-weight: 500;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 /* Wanna know more? */
 #more {
     font-family: "Bowlby One SC";
-    font-size: 1.4rem;
+    font-size: 1rem;
     font-weight: 500;
 }
 /***  Features Bar ***/
@@ -194,7 +194,7 @@ to be contained to a fixed width for legibility"****/
     padding-left: 0.6%;
     padding-top:0.6%;
     padding-bottom: 0.5%;
-    font-size: 1.7em;
+    font-size: 1em;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 /* Block center class*/
@@ -264,6 +264,32 @@ to be contained to a fixed width for legibility"*/
 @media screen and (min-width: 800px) {
     /* Desktop styles go here*/
     /**     **/
+    .thenav {
+        background-color: black;
+        text-align: center;
+        float: center;
+        width: 100%;
+    }
+    .thenav ul {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        padding: 0px;
+    }
+    .thenav a{
+        display: inline-block;
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgb(253, 253, 253);
+        font-size: 1.3rem;
+        font-weight: 400;
+        text-decoration: none;    
+    }
+    .thenav a {
+        text-align: center;
+        border-left: 2px solid white;
+        border-right: 2px solid white;
+        padding: 10px;
+    }
      .thenav{
         float:right;
     }
