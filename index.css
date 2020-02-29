@@ -173,12 +173,16 @@ to be contained to a fixed width for legibility"****/
 }
 /*    3 Times a week      */
 #times {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    font-size: 3rem;
+    
+    font-size: 2.4rem;
     font-weight: 500;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+/* Wanna know more? */
+#more {
+    font-family: "Bowlby One SC";
+    font-size: 2rem;
+    font-weight: 500;
 }
 /***  Features Bar ***/
 #Features-bar {
@@ -193,8 +197,13 @@ to be contained to a fixed width for legibility"****/
     padding-left: 10px;
     padding-right: 10px;
 }
-/***  Blocks/Mockups/Cards  ***/
+/***  Blocks/Mockups/Cards CLASSES  ***/
 /* Content box shadow, radius and hover */
+.CenteredItem {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
 .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     border-radius: 18px;
