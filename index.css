@@ -37,15 +37,19 @@
     display: inline-block;
     font-family: Arial, Helvetica, sans-serif;
     color: white;
-    font-size: 1.3rem;
+    font-size: 1rem;
     font-weight: 400;
     text-decoration: none;    
 }
-.thenav a {
+.thenav li {
     text-align: center;
-    border-left: 2px solid white;
-    border-right: 2px solid white;
-    padding: 10px;
+    border-left: 1px solid white;
+    padding: 5px;
+}
+.thenav li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 
@@ -173,15 +177,16 @@ to be contained to a fixed width for legibility"****/
 }
 /*    3 Times a week      */
 #times {
-    
-    font-size: 2.4rem;
+    color: white ;
+    background-color: black;
+    font-size: 2rem;
     font-weight: 500;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 /* Wanna know more? */
 #more {
     font-family: "Bowlby One SC";
-    font-size: 2rem;
+    font-size: 1.4rem;
     font-weight: 500;
 }
 /***  Features Bar ***/
