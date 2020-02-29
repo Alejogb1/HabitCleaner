@@ -66,6 +66,7 @@ to be contained to a fixed width for legibility"****/
     box-sizing: border-box;
     padding: 15px 10px 60px;
     justify-content: center;
+    background-color: rgb(73, 72, 72);
 }
 .title {
     margin: 10px auto ;
