@@ -1,0 +1,415 @@
+
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Bowlby+One+SC&display=swap');
+
+
+/**** !Main Stylesheet, mobile version! ***/
+
+/** Mobile Nav brand (Displaying)**/
+.navbar-brand {
+    font-size: 1.8rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top:0.9%;
+    padding-bottom: 0.9%;
+}
+.navbar-brand {
+    background-color: black;
+    color: white;
+    font-weight:bold;
+    font-family: 'Roboto', sans-serif;
+}
+/**    Navbar     **/
+.thenav {
+    background-color: black;
+    text-align: center;
+    float: center;
+    width: 100%;
+}
+.thenav ul {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding: 0px;
+}
+.thenav a{
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 1.3rem;
+    font-weight: 400;
+    text-decoration: none;    
+}
+.thenav a {
+    text-align: center;
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+    padding: 10px;
+}
+
+
+
+/****"Title generally needs 
+to be contained to a fixed width for legibility"****/
+.p-color {
+    background-color: rgb(255, 255, 255);
+}
+.showcase {
+    background-image: url(/dist/img/svetagaintseva180700051.jpg);
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 15px 10px 60px;
+    justify-content: center;
+}
+.title {
+    margin: 10px auto ;
+    display: block;
+    text-align: center; 
+    width: 80%;
+}
+.title {
+    font-size:20px;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+#First-L {
+    position: relative;
+    top: 0.23em;
+    margin-block-start: 0.23em;
+    margin-block-end: 0.39em;
+}
+#Second-L, #Third-L, #Forth-L {     
+    margin-block-start: 0.23em;
+    margin-block-end: 0.23em;
+}
+
+/*****  Sign Up button  *****/
+.showcase button {
+    font-size: 17px;
+    font-weight: 800;
+    
+    border: 3px solid rgb(35, 36, 34);
+}
+.showcase button:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+    
+}
+.signup {
+    width: 100%;
+    display: block;
+    text-align: center;
+    box-sizing: border-box;
+    margin: auto;
+    text-decoration: none;
+}
+.signup {
+    font-size: 0.7rem;
+    height: 3.7rem;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    padding: 1rem 1.8rem;
+    border-width: 0px;
+    background-image: radial-gradient( circle farthest-corner at 12.3% 19.3%,  rgba(85,88,218,1) 0%, rgba(95,209,249,1) 100.2% );
+}
+
+/***  Scroll Down Arrow  ***/
+.arrow {
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.scroll-down {
+	position: relative;
+	display: block;
+    text-align: center;
+    margin-right: -30;
+	font-size: 80px;
+	z-index: 100;
+	text-decoration: none;
+	text-shadow: 0;
+  width: 28px;
+  height: 28px;
+  border-bottom: 3px solid white;
+  border-right: 3px solid white;
+  z-index: 9;
+  margin-left: -30;
+  -webkit-transform: translate(-50%, 0%) rotate(45deg);
+  -moz-transform: translate(-50%, 0%) rotate(45deg);
+  transform: translate(-50%, 0%) rotate(45deg);
+	-webkit-animation: fade_move_down 4s ease-in-out infinite;
+	-moz-animation:    fade_move_down 4s ease-in-out infinite;
+	animation:         fade_move_down 4s ease-in-out infinite;
+}
+/*animated scroll arrow animation*/
+@-webkit-keyframes fade_move_down {
+  0%   { -webkit-transform:translate(0,-10px) rotate(45deg); opacity: 0;  }
+  50%  { opacity: 1;  }
+  100% { -webkit-transform:translate(0,10px) rotate(45deg); opacity: 0; }
+}
+@-moz-keyframes fade_move_down {
+  0%   { -moz-transform:translate(0,-10px) rotate(45deg); opacity: 0;  }
+  50%  { opacity: 1;  }
+  100% { -moz-transform:translate(0,10px) rotate(45deg); opacity: 0; }
+}
+@keyframes fade_move_down {
+  0%   { transform:translate(0,-10px) rotate(45deg); opacity: 0;  }
+  50%  { opacity: 1;  }
+  100% { transform:translate(0,10px) rotate(45deg); opacity: 0; }
+}
+/**** Second Page (Scrolling down) ****/
+/*  Features   */
+.navbar-brand {
+    background-color: #fff;
+    color: black;
+}
+/*    3 Times a week      */
+#times {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 3rem;
+    font-weight: 500;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+/***  Features Bar ***/
+#Features-bar {
+    padding-left: 0.6%;
+    padding-top:0.6%;
+    padding-bottom: 0.5%;
+    font-size: 1.7em;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+/* Block center class*/
+.block-center {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+/***  Blocks/Mockups/Cards  ***/
+/* Content box shadow, radius and hover */
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 18px;
+    background-color: white;
+}
+.content-cards {
+    border-right: 6px solid rgb(182, 173, 173);
+    margin: 0 auto;
+    margin-top: 30px;
+    /** Padding to the right makes the card more WIDE  **/
+    padding: 0 20px;
+    /*"Content generally needs 
+to be contained to a fixed width for legibility"*/
+    max-width: 280px;
+    max-height: 220px;
+  }
+.content-cards:hover {
+    cursor: pointer;;
+}
+.content-cards:active {
+    border-right: 6px solid rgb(65, 63, 63);
+    
+    transform: translateY(3px);
+}
+.card-p {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+}
+/***  Footer  **/
+#footer {
+    border-top: 1px solid black;
+    text-align: center;
+    font-size: 0.7em;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 7px;
+}
+
+/**** Breakpoints ****/ 
+/**/
+@media screen and (max-width: 567px) {
+    .showcase {
+        padding: 10px;
+    }
+
+}
+/*Use min-width cause i started making the mobile veresion first*/
+/*Tablet*/
+/*Small Monitor*/
+/*Large Monitor*/
+/* Media Screen*/
+@media screen and (min-width: 800px) {
+    /* Desktop styles go here*/
+    /**     **/
+     .thenav{
+        float:right;
+    }
+    .thelist {
+        float: left;
+    }
+    #myNavbar {
+        display: inline-block;
+    }
+    .Navbar #myNavbar #closebtn {
+        display: block;
+    }
+    /**  Showcase/Title/Signup   **/
+    .showcase {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly; /* Space between row and form. */
+        padding:15px 5% 30px; /* 60px to 30px of padding and 5% responsive side padding. */
+        min-height: 118vh; /*  this height, otherwise content doesnt fit in screen. (Before was 90vh) */
+    }
+    .title {
+    width: auto; /*  It was 100% so text was text & card were very wide.    */
+    box-sizing: border-box; /* Helps to fix text with padding */
+    padding: 2em 2.8rem; /** Same as button  **/
+    text-align: center;
+    margin: auto; /* Keeps card from going to the left, and stays in center.  */
+    font-size: 1.5em;
+    }   
+    #Title {
+        border-right: 7px solid orange; /* Gives color and border without editing class. */
+    }
+    /* Arrow */
+    .arrow { /* Bunch of properties that are not needed. */
+        display: none;
+    }
+    .desk-arrow { /* Class created for flex. */
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+    }
+    /* Content  */
+    .block-center {
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: row; /*  Column for mobile, row for desktop.   */
+    }
+    /* Features */
+    /* Deletable */
+.content {
+    height: 50vh;
+    padding: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.black-contrast-c {
+    color: white;
+    background-color: black;
+}
+/* Times */
+#more2 {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 500px;
+    width: 100%;
+    background-color: black;
+    background-image: url(/dist/img/everyweek.png);
+
+}
+#times {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 3rem;
+    font-weight: 500;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#image {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 600px 400px;
+    background-image: url(/dist/img/Motherimg.png);
+}
+#more {
+    font-family: "Bowlby One SC";
+    font-size: 3rem;
+    font-weight: 500;
+}
+/*    Images in Features  */
+ 
+/***/
+#Features {
+    width: 30% ;
+    height: auto;
+    background-image: url(/dist/img/beige-and-black-chair-in-front-of-white-desk-509922.jpg);
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#Floor {
+    background-color: #fff;
+    width: 30%;
+    background-image: url(/dist/img/Escoba.png);
+    background-size:  440px 350px;
+    height: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#Throw {
+    background-color: #fff;
+    width: 30%;
+    background-size: cover;
+    height: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(/dist/img/trash.png);
+}
+}
+
+
+
+/*** Avoid global Scopes, except these (Global Configs) ****/
+html {
+    overflow-x: hidden
+}
+/*Add border-box, to see exactly the width i want*/
+body {
+    box-sizing: border-box; 
+}
+body {    /*  Taking margin of the websit out  */
+    margin: 0 !important;
+    
+    padding: 0 !important;
+}
+h1 {
+    font-weight: 700; /** Changed default h1 f-weight property **/
+}
+/* Rows exists just to contain my columns ("Clearfix hack") */
+.row::before,
+.row::after {
+  display: table;
+  content: ' ';
+  clear: both;
+}
+
+ul {
+    list-style-type: none;
+    /* Had to turn these to 0, otherwise navbar shows before opening it*/
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0px;
+}
+
+/* figure agent stylesheet properties taken off */
+figure {
+    overflow: hidden;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
