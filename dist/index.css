@@ -20,51 +20,44 @@
     font-weight:bold;
     font-family: 'Roboto', sans-serif;
 }
-/**** Mobile Nav Bar (Not displaying, disabled) *****/
-.Navbar {   
-    height: 100%;
-    width: 0;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background-color: #111;
-    overflow-x: hidden;
-    padding-top: 60px;
-    border-radius: 0px 10px 500px 120px;
-    transition: all 0.5s;
+/**    Navbar     **/
+.thenav {
+    background-color: black;
+    text-align: center;
+    float: center;
+    width: 100%;
 }
-/* Navbar items, links */
-.Navbar a {
-  padding: 20px;
-  text-decoration: none;
-  font-size: 20px;
-  color: #fff;
-  display: flex;
-  box-sizing: border-box;
-  align-items: center;
-  transition: 0.3s;
-  line-height: 2.42857143;
-  border-left: 3.6px solid #5d6add;
+.thenav ul {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding: 0px;
 }
-/* Open & Button Icon*/
-#openIcon.openbtn {
-    position: relative;
-    margin-right: 50%;
+.thenav a{
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 1rem;
+    font-weight: 400;
+    text-decoration: none;    
 }
-.Navbar .closebtn {
-    position: absolute;
-    top: 0;
-    right: 25px;
-    font-size: 36px;
-    margin-left: 50px;
-    border-left: none;
-}/* If there's a bug with side navbar, write code: ".c2 {display:block}   */
+.thenav li {
+    text-align: center;
+    border-left: 1px solid white;
+    padding: 5px;
+}
+.thenav li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
 
 /****"Title generally needs 
 to be contained to a fixed width for legibility"****/
 .p-color {
-    background-color: rgb(89, 89, 89);
+    background-color: rgb(255, 255, 255);
 }
 .showcase {
     background-image: url(/dist/img/svetagaintseva180700051.jpg);
@@ -73,6 +66,7 @@ to be contained to a fixed width for legibility"****/
     box-sizing: border-box;
     padding: 15px 10px 60px;
     justify-content: center;
+    background-color: rgb(73, 72, 72);
 }
 .title {
     margin: 10px auto ;
@@ -177,85 +171,32 @@ to be contained to a fixed width for legibility"****/
   100% { transform:translate(0,10px) rotate(45deg); opacity: 0; }
 }
 /**** Second Page (Scrolling down) ****/
-
-#Features {
-    /*Otherwise, footer gives 10px of blank background*/
-    padding-bottom: 17px;
+/*  Features   */
+.navbar-brand {
+    background-color: #fff;
+    color: black;
 }
-/* Deletable */
-.content {
-    height: 50vh;
-    padding: 60px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-}
-.black-contrast-c {
-    color: white;
-    background-color: black;
-}
-/* Times */
-#more2 {
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 500px;
-    width: 100%;
-    background-color: black;
-    background-image: url(/dist/img/everyweek.png);
-
-}
+/*    3 Times a week      */
 #times {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    font-size: 3rem;
+    color: white ;
+    background-color: black;
+    font-size: 1.2rem;
     font-weight: 500;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
-#image {
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 600px 400px;
-    background-image: url(/dist/img/Motherimg.png);
-}
+/* Wanna know more? */
 #more {
+    border-top: 1px solid;
     font-family: "Bowlby One SC";
-    font-size: 3rem;
+    font-size: 1rem;
     font-weight: 500;
-}
-/***/
-#Features {
-    width: 30% ;
-    height: auto;
-    background-image: url(/dist/img/beige-and-black-chair-in-front-of-white-desk-509922.jpg);
-    background-position: bottom;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-#Floor {
-    background-color: #fff;
-    width: 30%;
-    background-image: url(/dist/img/Escoba.png);
-    background-size:  440px 350px;
-    height: auto;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-#Throw {
-    background-color: #fff;
-    width: 30%;
-    background-size: cover;
-    height: auto;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-image: url(/dist/img/trash.png);
 }
 /***  Features Bar ***/
 #Features-bar {
     padding-left: 0.6%;
     padding-top:0.6%;
     padding-bottom: 0.5%;
-    font-size: 1.7em;
+    font-size: 1em;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 /* Block center class*/
@@ -263,8 +204,13 @@ to be contained to a fixed width for legibility"****/
     padding-left: 10px;
     padding-right: 10px;
 }
-/***  Blocks/Mockups/Cards  ***/
+/***  Blocks/Mockups/Cards CLASSES  ***/
 /* Content box shadow, radius and hover */
+.CenteredItem {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
 .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     border-radius: 18px;
@@ -282,7 +228,7 @@ to be contained to a fixed width for legibility"*/
     max-height: 220px;
   }
 .content-cards:hover {
-    cursor: pointer;;
+    cursor: pointer;
 }
 .content-cards:active {
     border-right: 6px solid rgb(65, 63, 63);
@@ -292,44 +238,6 @@ to be contained to a fixed width for legibility"*/
 .card-p {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     text-align: center;
-}
-/* (First Block) "ReadinGirl Ilustration" */
-#Organized-Content {
-    padding-top: 10px;
-}
-#Organized-Content p {
-    margin-block-start: 0.2em;
-    margin-block-end: 0.2em;
-}
-#Readingirl-img {
-    position: relative;
-    left: 10px;
-    width: 90%;
-    height: auto;
-}
-.center {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-/* (Second Block) "Bulb Ilustration" */
-#Types-Content {
-    padding-top: 21px;
-    padding-bottom: 21px;
-}
-#Types-content ul {
-    margin-block-end: 0.9em;
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
-}
-
-#Bulb-img {
-    position: relative;
-    left: 0px;
-    width: 80%;
-    height: 100%;
-    bottom: 0.1px;
 }
 /***  Footer  **/
 #footer {
@@ -358,6 +266,32 @@ to be contained to a fixed width for legibility"*/
 @media screen and (min-width: 800px) {
     /* Desktop styles go here*/
     /**     **/
+    .thenav {
+        background-color: black;
+        text-align: center;
+        float: center;
+        width: 100%;
+    }
+    .thenav ul {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        padding: 0px;
+    }
+    .thenav a{
+        display: inline-block;
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgb(253, 253, 253);
+        font-size: 1.3rem;
+        font-weight: 400;
+        text-decoration: none;    
+    }
+    .thenav a {
+        text-align: center;
+        border-left: 2px solid white;
+        border-right: 2px solid white;
+        padding: 10px;
+    }
      .thenav{
         float:right;
     }
@@ -405,8 +339,78 @@ to be contained to a fixed width for legibility"*/
         flex-direction: row; /*  Column for mobile, row for desktop.   */
     }
     /* Features */
+    /* Deletable */
+.content {
+    height: 50vh;
+    padding: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.black-contrast-c {
+    color: white;
+    background-color: black;
+}
+/* Times */
+#more2 {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 500px;
+    width: 100%;
+    background-color: black;
+    background-image: url(/dist/img/everyweek.png);
 
-  }
+}
+#times {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 3rem;
+    font-weight: 500;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#image {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 600px 400px;
+    background-image: url(/dist/img/Motherimg.png);
+}
+#more {
+    font-family: "Bowlby One SC";
+    font-size: 3rem;
+    font-weight: 500;
+}
+/*    Images in Features  */
+ 
+/***/
+#Features {
+    width: 30% ;
+    height: auto;
+    background-image: url(/dist/img/beige-and-black-chair-in-front-of-white-desk-509922.jpg);
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#Floor {
+    background-color: #fff;
+    width: 30%;
+    background-image: url(/dist/img/Escoba.png);
+    background-size:  440px 350px;
+    height: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#Throw {
+    background-color: #fff;
+    width: 30%;
+    background-size: cover;
+    height: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(/dist/img/trash.png);
+}
+}
+
 
 
 /*** Avoid global Scopes, except these (Global Configs) ****/

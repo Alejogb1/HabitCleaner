@@ -7,14 +7,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Alejogb1/WEB_DEVS.git"
+    "url": "git+https://github.com/Alejogb1/HabitCleaner.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Alejogb1/WEB_DEVS/issues"
+    "url": "https://github.com/Alejogb1/HabitCleaner/issues"
   },
-  "homepage": "https://github.com/Alejogb1/WEB_DEVS#readme",
+  "homepage": "https://github.com/Alejogb1/HabitCleaner#readme",
   "description": "Working...zzz\r Actually developing the mobile version.",
   "keywords": [],
   "directories": {
