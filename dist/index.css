@@ -230,6 +230,11 @@ to be contained to a fixed width for legibility"****/
     font-size: 1em;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
+#Blocks {
+    box-sizing: border-box;
+    padding-bottom:50px;
+    margin-bottom: 0px;
+}
 /* Block center class*/
 .block-center {
     padding-left: 10px;
@@ -280,6 +285,36 @@ to be contained to a fixed width for legibility"*/
     font-size: 0.5rem;
     font-weight: 200;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+/*JBP Video */
+#JBPvideo {
+    border: 1px solid;
+    position: relative;
+    width: 84%;
+    left: 14px;
+    height: auto;
+}
+#JBPvideo {
+    padding: 10px;
+}
+#JBPcard {
+    margin-bottom:50px ;
+    padding-bottom: 60px;
+}
+#JBPcard p {
+    padding: 10px;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+.center {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+/**   JBP Phrases  **/
+ul {
+    color: white;
+    background-color: black;
 }
 /***  Footer  **/
 #footer {
@@ -509,7 +544,6 @@ ul {
     margin-inline-end: 0px;
     padding-inline-start: 0px;
 }
-
 /* figure agent stylesheet properties taken off */
 figure {
     overflow: hidden;
