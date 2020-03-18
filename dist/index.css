@@ -60,7 +60,7 @@ to be contained to a fixed width for legibility"****/
     background-color: rgb(255, 255, 255);
 }
 .showcase {
-    background-image: url(/dist/img/svetagaintseva180700051.jpg);
+    /*background-image: url(/dist/img/svetagaintseva180700051.jpg);*/
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
