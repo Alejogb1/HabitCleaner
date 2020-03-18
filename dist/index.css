@@ -240,6 +240,22 @@ to be contained to a fixed width for legibility"****/
     padding-left: 10px;
     padding-right: 10px;
 }
+/* Block (help.html)*/
+.pa3 {
+    height: 70vh;
+    background-color: #22b8cf;
+}
+.pa2 {
+    border-radius: 10px;
+    padding: 10px;
+}
+.f4 {
+    font-family: fa5-proxima-nova,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 600;
+    line-height: 1.5;
+    color: white;
+    font-size: 1.25rem
+}
 /***  Blocks/Mockups/Cards CLASSES  ***/
 /* Content box shadow, radius and hover */
 .CenteredItem {
