@@ -60,7 +60,7 @@ to be contained to a fixed width for legibility"****/
     background-color: rgb(255, 255, 255);
 }
 .showcase {
-    background-image: url(/dist/img/svetagaintseva180700051.jpg);
+    /*background-image: url(/dist/img/svetagaintseva180700051.jpg);*/
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
@@ -482,7 +482,7 @@ ul {
     background-size: 500px;
     width: 100%;
     background-color: black;
-    background-image: url(/dist/img/everyweek.png);
+    background-image: url(img/everyweek.png);
 
 }
 /* Times (index.html*/
@@ -498,7 +498,7 @@ ul {
     background-position: center;
     background-repeat: no-repeat;
     background-size: 600px 400px;
-    background-image: url(/dist/img/Motherimg.png);
+    background-image: url(img/Motherimg.png);
 }
 #more {
     font-family: "Bowlby One SC";
@@ -511,16 +511,16 @@ ul {
 #Features {
     width: 30% ;
     height: auto;
-    background-image: url(/dist/img/beige-and-black-chair-in-front-of-white-desk-509922.jpg);
-    background-position: bottom;
-    background-size: cover;
+    background-image: url(img/orderclothes&desk.png);
+    background-position: center;
+    background-size: 250px;
     background-repeat: no-repeat;
 }
 #Floor {
     background-color: #fff;
     width: 30%;
-    background-image: url(/dist/img/Escoba.png);
-    background-size:  440px 350px;
+    background-image: url(img/Escoba.png);
+    background-size:  240px 130px;
     height: auto;
     background-repeat: no-repeat;
     background-position: center;
@@ -528,11 +528,11 @@ ul {
 #Throw {
     background-color: #fff;
     width: 30%;
-    background-size: cover;
+    background-size: 200px;
     height: auto;
     background-repeat: no-repeat;
     background-position: center;
-    background-image: url(/dist/img/trash.png);
+    background-image: url(img/trash.png);
 }
 /*** Section of the times.html page ****/
 #times-page {
