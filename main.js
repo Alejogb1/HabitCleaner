@@ -25,3 +25,5 @@ window.onclick = function(event) {
     }
   }
 }
+/* Coming Soon Sign Up */
+document.querySelector('.Signup').addEventListener('click', function(){ this.textContent = 'Coming Soon!'; })
